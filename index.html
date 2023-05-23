@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <!-- block block 
+        element block__elem
+          modifier block__elem--modificator
+  -->
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="logo">
+          <p class="logo__text">Форум заявок</p>
+        </div>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">ГОЛОВНА</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">КАБІНЕТ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">ЗАЯВКИ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <main class="page">
+    <section class="page__main-block main-block">
+      <div class="main-block__content">
+        <h1 class="main-block__title">Зробимо місто краще!</h1>
+        <h2 class="main-block__subtitle">Розбираємо популярні заявки на покращення об'єктів</h2>
+        <button data-ripple class="main-block__button button">
+          До популярних заявок
+        </button>
+      </div>
+      <div class="main-block__background">
+        <img src="./assets/imgs/img 1.svg" alt="background" class="main-block__image">
+      </div>
+    </section>
+    <section class="page__popular-requests popular-requests">
+      <div class="popular-requests__heading heading">
+        <h3 class="heading__text">Популярні</h3>
+        <div class="heading__underline"></div>
+      </div>
+      <ul class="popular-requests__requests">
+        <li class="popular-requests__request request">
+          <a href="#" class="request__link">
+            <img src="./../../assets/imgs/popular/first-item-background.svg" alt="request image" class="request__img">
+            <div class="request__content">
+              <div class="request__header">
+                <p class="request__category">ADVENTURE</p>
+              </div>
+              <p class="request__title">The Road Ahead</p>
+              <p class="request__description">The road ahead might be paved - it might not be.</p>
+              <div class="request__footer">
+                <div class="request__writer writer">
+                  <img src="./assets/imgs/writer-avatars/IMAGEwriter2.svg" alt="writer avatar" class="writer__avatar" />
+                  <p class="writer__nickname">Mat Vogels</p>
+                </div>
+                <time class="request__date">September 25, 2015</time>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="popular-requests__request request">
+          <a href="#" class="request__link">
+            <img src="./../../assets/imgs/popular/second-item-background.svg" alt="request image" class="request__img">
+            <div class="request__content">
+              <p class="request__title">From Top Down</p>
+              <p class="request__description">Once a year, go someplace you’ve never been before.</p>
+              <div class="request__footer">
+                <div class="request__writer writer">
+                  <img src="./assets/imgs/writer-avatars/IMAGEwriter1.svg" alt="writer avatar" class="writer__avatar" />
+                  <p class="writer__nickname">William Wong</p>
+                </div>
+                <time class="request__date">September 25, 2015</time>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="page__recent-requests recent-requests">
+      <div class="recent-requests__heading heading">
+        <h3 class="heading__text">Останні</h3>
+        <div class="heading__underline"></div>
+      </div>
+      <ul class="recent-requests__list">
+        <li class="recent-requests__item card">
+          <a href="#" class="card__link">
+            <img src="./assets/imgs/recent/1.jpg" alt="card image" class="card__img">
+            <div class="card__content">
+              <p class="card__title">Still Standing Tall</p>
+              <p class="card__description">Life begins at the end of your comfort zone.</p>
+            </div>
+            <div class="card__footer">
+              <div class="card__writer writer">
+                <img src="./assets/imgs/writer-avatars/IMAGEwriter1.svg" alt="writer avatar" class="writer__avatar" />
+                <p class="writer__nickname">William Wong</p>
+              </div>
+              <time class="card__date">9&#47;25&#47;2015</time>
+            </div>
+          </a>
+        </li>
+        <li class="recent-requests__item card">
+          <a href="#" class="card__link">
+            <img src="./assets/imgs/recent/IMAGE2.jpg" alt="card image" class="card__img">
+            <div class="card__content">
+              <p class="card__title">Sunny Side Up</p>
+              <p class="card__description">No place is ever as bad as they tell you it’s going to be.</p>
+            </div>
+            <div class="card__footer">
+              <div class="card__writer writer">
+                <img src="./assets/imgs/writer-avatars/IMAGEwriter2.svg" alt="writer avatar" class="writer__avatar" />
+                <p class="writer__nickname">Mat Vogels</p>
+              </div>
+              <time class="card__date">9&#47;25&#47;2015</time>
+            </div>
+          </a>
+        </li>
+        <li class="recent-requests__item card">
+          <a href="#" class="card__link">
+            <img src="./assets/imgs/recent/IMAGE3.jpg" alt="card image" class="card__img">
+            <div class="card__content">
+              <p class="card__title">Water Falls</p>
+              <p class="card__description">We travel not to escape life, but for life not to escape us.</p>
+            </div>
+            <div class="card__footer">
+              <div class="card__writer writer">
+                <img src="./assets/imgs/writer-avatars/IMAGEwriter2.svg" alt="writer avatar" class="writer__avatar" />
+                <p class="writer__nickname">Mat Vogels</p>
+              </div>
+              <time class="card__date">9&#47;25&#47;2015</time>
+            </div>
+          </a>
+        </li>
+        <li class="recent-requests__item card">
+          <a href="#" class="card__link">
+            <img src="./assets/imgs/recent/Frame4.jpg" alt="card image" class="card__img">
+            <div class="card__content">
+              <p class="card__title">Through the Mist</p>
+              <p class="card__description">Travel makes you see what a tiny place you occupy in the world.</p>
+            </div>
+            <div class="card__footer">
+              <div class="card__writer writer">
+                <img src="./assets/imgs/writer-avatars/IMAGEwriter1.svg" alt="writer avatar" class="writer__avatar" />
+                <p class="writer__nickname">William Wong</p>
+              </div>
+              <time class="card__date">9&#47;25&#47;2015</time>
+            </div>
+          </a>
+        </li>
+        <li class="recent-requests__item card">
+          <a href="#" class="card__link">
+            <img src="./assets/imgs/recent/Frame5.jpg" alt="card image" class="card__img">
+            <div class="card__content">
+              <p class="card__title">Awaken Early</p>
+              <p class="card__description">Not all those who wander are lost.</p>
+            </div>
+            <div class="card__footer">
+              <div class="card__writer writer">
+                <img src="./assets/imgs/writer-avatars/IMAGEwriter2.svg" alt="writer avatar" class="writer__avatar" />
+                <p class="writer__nickname">Mat Vogels</p>
+              </div>
+              <time class="card__date">9&#47;25&#47;2015</time>
+            </div>
+          </a>
+        </li>
+        <li class="recent-requests__item card">
+          <a href="#" class="card__link">
+            <img src="./assets/imgs/recent/IMAGE6.jpg" alt="card image" class="card__img">
+            <div class="card__content">
+              <p class="card__title">Try it Always</p>
+              <p class="card__description">The world is a book, and those who do not travel read only one page.</p>
+            </div>
+            <div class="card__footer">
+              <div class="card__writer writer">
+                <img src="./assets/imgs/writer-avatars/IMAGEwriter2.svg" alt="writer avatar" class="writer__avatar" />
+                <p class="writer__nickname">Mat Vogels</p>
+              </div>
+              <time class="card__date">9&#47;25&#47;2015</time>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>

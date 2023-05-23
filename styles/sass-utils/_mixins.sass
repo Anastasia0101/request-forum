@@ -1,0 +1,16 @@
+@mixin text($fontSize, $lineHeight, $fontFamily: $baseFontFamily)
+  font:
+    family: $fontFamily
+    size: $fontSize
+  line-height: $lineHeight
+
+@mixin container
+  width: 100%
+  max-width: 940px
+  margin: 0 auto
+
+@mixin link-block
+  display: block
+  width: 100%
+  height: 100%
+  

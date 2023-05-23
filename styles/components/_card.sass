@@ -1,0 +1,48 @@
+.card
+  min-width: 240px
+  width: 30%
+  overflow: hidden
+  transition: all 0.5s
+  &:hover
+    box-shadow: 0px 0px 20px #adabab
+  @media (max-width: 520px)
+    width: 60%
+
+  &__link
+    @include link-block
+    display: flex
+    flex-direction: column 
+
+  &__content
+    background-color: #FFFFFF
+    color: #000
+    font-size: 13px
+    padding: 1em
+    border-top: 1px solid #EFEFEF
+    flex: 1 1 auto
+
+  &__img
+    width: 100%
+    object-fit: cover
+    height: 45%
+
+  &__title
+    @include text(2em, 1.6em, $titleFontFamily)
+    margin-bottom: 6px 
+    font-size: 1.2em
+
+  &__description
+    @include text(1em, 1.8em)
+    color: rgba(122, 122, 122, 1)
+
+  &__footer
+    @include text(0.9em, 2.1em)
+    display: flex
+    justify-content: space-between
+    background-color: #FCFCFC
+    color: rgba(153, 153, 153, 1)
+    padding: 12px 13px 
+    border-top: 1px solid #EFEFEF
+    
+  &__writer
+    display: flex

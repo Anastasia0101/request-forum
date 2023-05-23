@@ -1,0 +1,22 @@
+.recent-requests
+  @include container
+  display: flex
+  flex-direction: column
+  background-color: #f7f7f7
+  box-sizing: border-box
+
+  &__heading
+    margin-top: 30px
+
+  &__list
+    width: 100%
+    padding: 12px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 24px
+    
+  &__item
+    flex: 1 1 auto
+    @media (max-width: 520px)
+      flex: 0 0 auto

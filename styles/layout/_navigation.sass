@@ -1,0 +1,14 @@
+.nav
+  &__list
+    display: flex
+    align-items: center
+    margin: 17px 0
+
+  &__item:not(:first-child)
+    margin-left: 50px
+
+  &__link
+    @include text(12px, 20px)
+    letter-spacing: 0.6px
+    &:hover
+      text-decoration: underline
